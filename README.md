@@ -15,4 +15,4 @@ I marked my changes with //todo
 You can find the original Project at: https://github.com/signalapp/Signal-Android
 
 
-If you want to install the .apk you find attached to the releases you have to uninstall the original app first.
+This is almost the same code as https://github.com/SBester001/Signal-Android. The only differenz is that I changed the name so that you don't have to uninstall the original app.
