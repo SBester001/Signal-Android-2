@@ -27,6 +27,9 @@ public class UnauthorizedReminder extends Reminder {
   }
 
   public static boolean isEligible(Context context) {
+    //todo todo: app doesn't notice that you use your phone number for another device/app
+    //return false;
     return TextSecurePreferences.isUnauthorizedRecieved(context);
+
   }
 }
