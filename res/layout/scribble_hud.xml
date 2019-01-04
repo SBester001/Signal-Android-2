@@ -78,7 +78,7 @@
                 android:padding="12dp"
                 android:background="?attr/selectableItemBackgroundBorderless"/>
 
-            <org.thoughtcrime.securesms.scribbles.widget.VerticalSlideColorPicker
+            <org.thoughtcrime.securesm2.scribbles.widget.VerticalSlideColorPicker
                 android:id="@+id/scribble_color_picker"
                 android:layout_width="26dp"
                 android:layout_height="170dp"
@@ -119,7 +119,7 @@
             android:orientation="horizontal"
             android:background="@drawable/compose_background_camera">
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiToggle
+            <org.thoughtcrime.securesm2.components.emoji.EmojiToggle
                 android:id="@+id/scribble_emoji_toggle"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/conversation_compose_height"
@@ -135,7 +135,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/conversation_compose_height" />
 
-            <org.thoughtcrime.securesms.components.ComposeText
+            <org.thoughtcrime.securesm2.components.ComposeText
                 style="@style/ComposeEditText"
                 android:id="@+id/scribble_compose_text"
                 android:layout_width="0dp"
@@ -159,7 +159,7 @@
             android:background="@drawable/circle_tintable"
             tools:backgroundTint="@color/core_blue">
 
-            <org.thoughtcrime.securesms.components.SendButton
+            <org.thoughtcrime.securesm2.components.SendButton
                 android:id="@+id/scribble_send_button"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"

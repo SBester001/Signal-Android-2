@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.ConversationListItem
+<org.thoughtcrime.securesm2.ConversationListItem
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -22,7 +22,7 @@
         android:layout_marginRight="6dp"
         android:layout_marginEnd="6dp">
 
-        <org.thoughtcrime.securesms.components.AvatarImageView
+        <org.thoughtcrime.securesm2.components.AvatarImageView
             android:id="@+id/contact_photo_image"
             android:foreground="@drawable/contact_photo_background"
             android:layout_width="48dp"
@@ -56,7 +56,7 @@
                   android:weightSum="1"
                   android:orientation="horizontal">
 
-        <org.thoughtcrime.securesms.components.FromTextView
+        <org.thoughtcrime.securesm2.components.FromTextView
                   android:id="@+id/from"
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
                   android:layout_marginBottom="2dp"
                   android:drawablePadding="5dp"/>
 
-        <org.thoughtcrime.securesms.components.AlertView
+        <org.thoughtcrime.securesm2.components.AlertView
                 android:id="@+id/indicators_parent"
                 android:layout_width="18dp"
                 android:layout_height="18dp"
@@ -99,7 +99,7 @@
             android:layout_toLeftOf="@+id/status"
             android:layout_toStartOf="@+id/status">
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.thoughtcrime.securesm2.components.emoji.EmojiTextView
                     android:id="@+id/subject"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
                     tools:text="Wheels arrive at 3pm flat. This is a somewhat longer message."
                     android:ellipsize="end" />
 
-            <org.thoughtcrime.securesms.components.TypingIndicatorView
+            <org.thoughtcrime.securesm2.components.TypingIndicatorView
                 android:id="@+id/typing_indicator"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -119,7 +119,7 @@
 
         </FrameLayout>
 
-        <org.thoughtcrime.securesms.components.ThumbnailView
+        <org.thoughtcrime.securesm2.components.ThumbnailView
                 android:id="@+id/thumbnail"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
@@ -179,7 +179,7 @@
                      android:layout_toStartOf="@id/archived"
                      android:layout_alignWithParentIfMissing="true">
 
-            <org.thoughtcrime.securesms.components.DeliveryStatusView
+            <org.thoughtcrime.securesm2.components.DeliveryStatusView
                     android:id="@+id/delivery_status"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -190,4 +190,4 @@
 
     </RelativeLayout>
 
-</org.thoughtcrime.securesms.ConversationListItem>
+</org.thoughtcrime.securesm2.ConversationListItem>

@@ -5,16 +5,16 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.thoughtcrime.securesms.scribbles.ScribbleActivity">
+    tools:context="org.thoughtcrime.securesm2.scribbles.ScribbleActivity">
 
-    <org.thoughtcrime.securesms.scribbles.widget.ScribbleView
+    <org.thoughtcrime.securesm2.scribbles.widget.ScribbleView
         android:id="@+id/scribble_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center" />
 
-    <org.thoughtcrime.securesms.scribbles.ScribbleHud
+    <org.thoughtcrime.securesm2.scribbles.ScribbleHud
         android:id="@+id/scribble_hud"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

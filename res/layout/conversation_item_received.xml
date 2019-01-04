@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.ConversationItem
+<org.thoughtcrime.securesm2.ConversationItem
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -33,7 +33,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true">
 
-            <org.thoughtcrime.securesms.components.AvatarImageView
+            <org.thoughtcrime.securesm2.components.AvatarImageView
                 android:id="@+id/contact_photo"
                 android:foreground="@drawable/contact_photo_background"
                 android:layout_width="@dimen/conversation_item_avatar_size"
@@ -101,7 +101,7 @@
 
             </LinearLayout>
 
-            <org.thoughtcrime.securesms.components.QuoteView
+            <org.thoughtcrime.securesm2.components.QuoteView
                 android:id="@+id/quote_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -148,7 +148,7 @@
                 android:layout_marginLeft="@dimen/message_bubble_horizontal_padding"
                 android:layout_marginRight="@dimen/message_bubble_horizontal_padding" />
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+            <org.thoughtcrime.securesm2.components.emoji.EmojiTextView
                 android:id="@+id/conversation_item_body"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -162,7 +162,7 @@
                 app:scaleEmojis="true"
                 tools:text="Mango pickle lorem ipsum"/>
 
-            <org.thoughtcrime.securesms.components.ConversationItemFooter
+            <org.thoughtcrime.securesm2.components.ConversationItemFooter
                 android:id="@+id/conversation_item_footer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -178,7 +178,7 @@
 
         </LinearLayout>
 
-        <org.thoughtcrime.securesms.components.AlertView
+        <org.thoughtcrime.securesm2.components.AlertView
             android:id="@+id/indicators_parent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -187,4 +187,4 @@
             android:gravity="center_vertical"/>
 
     </RelativeLayout>
-</org.thoughtcrime.securesms.ConversationItem>
+</org.thoughtcrime.securesm2.ConversationItem>

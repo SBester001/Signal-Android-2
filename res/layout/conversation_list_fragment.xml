@@ -50,7 +50,7 @@
         android:orientation="vertical"
         tools:visibility="gone">
 
-        <org.thoughtcrime.securesms.components.reminder.ReminderView
+        <org.thoughtcrime.securesm2.components.reminder.ReminderView
             android:id="@+id/reminder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -67,7 +67,7 @@
     </LinearLayout>
 
 
-    <org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton
+    <org.thoughtcrime.securesm2.components.registration.PulsingFloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -5,7 +5,7 @@
              xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:app="http://schemas.android.com/apk/res-auto">
 
-<org.thoughtcrime.securesms.components.InputAwareLayout
+<org.thoughtcrime.securesm2.components.InputAwareLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,7 +23,7 @@
                        android:layout_height="64dp"
                        android:transitionName="avatar"/>
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiEditText
+            <org.thoughtcrime.securesm2.components.emoji.EmojiEditText
                     android:id="@+id/name"
                     android:hint="@string/profile_create_activity__your_name"
                     android:layout_width="0dp"
@@ -33,7 +33,7 @@
                     android:layout_marginLeft="10dp"
                     android:inputType="textCapWords"/>
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiToggle
+            <org.thoughtcrime.securesm2.components.emoji.EmojiToggle
                     android:id="@+id/emoji_toggle"
                     android:layout_width="37dp"
                     android:layout_height="37dp"
@@ -107,7 +107,7 @@
                       android:textColor="@color/gray50"
                       android:text="@string/profile_create_activity__set_later"/>
 
-            <org.thoughtcrime.securesms.components.emoji.EmojiDrawer
+            <org.thoughtcrime.securesm2.components.emoji.EmojiDrawer
                     xmlns:android="http://schemas.android.com/apk/res/android"
                     android:id="@+id/emoji_drawer"
                     android:layout_width="match_parent"
@@ -116,7 +116,7 @@
 
         </LinearLayout>
 
-</org.thoughtcrime.securesms.components.InputAwareLayout>
+</org.thoughtcrime.securesm2.components.InputAwareLayout>
 
     <View android:id="@+id/reveal"
           android:background="@color/textsecure_primary"

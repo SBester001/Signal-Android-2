@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<org.thoughtcrime.securesms.profiles.GroupShareProfileView
+<org.thoughtcrime.securesm2.profiles.GroupShareProfileView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/group_share_profile_view"
         android:layout_width="match_parent"

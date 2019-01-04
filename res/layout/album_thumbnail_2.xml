@@ -7,13 +7,13 @@
     android:layout_width="300dp"
     android:layout_height="150dp">
 
-    <org.thoughtcrime.securesms.components.ThumbnailView
+    <org.thoughtcrime.securesm2.components.ThumbnailView
         android:id="@+id/album_cell_1"
         android:layout_height="150dp"
         android:layout_width="149dp"
         app:thumbnail_radius="0dp"/>
 
-    <org.thoughtcrime.securesms.components.ThumbnailView
+    <org.thoughtcrime.securesm2.components.ThumbnailView
         android:id="@+id/album_cell_2"
         android:layout_height="150dp"
         android:layout_width="149dp"

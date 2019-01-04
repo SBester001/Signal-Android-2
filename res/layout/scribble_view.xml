@@ -9,12 +9,12 @@
                android:scaleType="centerInside"
                android:adjustViewBounds="true"/>
 
-    <org.thoughtcrime.securesms.scribbles.widget.MotionView
+    <org.thoughtcrime.securesm2.scribbles.widget.MotionView
             android:id="@+id/motion_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-    <org.thoughtcrime.securesms.scribbles.widget.CanvasView
+    <org.thoughtcrime.securesm2.scribbles.widget.CanvasView
             android:id="@+id/canvas_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

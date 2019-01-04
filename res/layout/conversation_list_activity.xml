@@ -65,7 +65,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/toolbar" />
 
-    <org.thoughtcrime.securesms.components.SearchToolbar
+    <org.thoughtcrime.securesm2.components.SearchToolbar
             android:id="@+id/search_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

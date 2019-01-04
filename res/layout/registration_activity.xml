@@ -222,7 +222,7 @@
                         android:layout_height="match_parent"
                         tools:visibility="visible">
 
-            <org.thoughtcrime.securesms.components.registration.VerificationCodeView
+            <org.thoughtcrime.securesm2.components.registration.VerificationCodeView
                     android:id="@+id/code"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
@@ -234,7 +234,7 @@
                     app:vcv_textColor="@color/signal_primary"
                     app:vcv_inputColor="@color/grey_600"/>
 
-            <org.thoughtcrime.securesms.components.registration.CallMeCountDownView
+            <org.thoughtcrime.securesm2.components.registration.CallMeCountDownView
                     android:id="@+id/call_me_count_down"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -243,7 +243,7 @@
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"/>
 
-            <org.thoughtcrime.securesms.components.registration.VerificationPinKeyboard
+            <org.thoughtcrime.securesm2.components.registration.VerificationPinKeyboard
                     android:id="@+id/keyboard"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
